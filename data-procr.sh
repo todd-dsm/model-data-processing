@@ -74,7 +74,7 @@ cp -f "$dataSrc" "$dataRaw"
 ###----------------------------------------------------------------------------
 ### Read the file, line by line and enrich the data
 ###---
-### Within this block, the data can be manipulated however we like.
+### Within this block, the data can be manipulated however we like
 ###---
 pMsg "Processing rows..."
 while read -r line; do
